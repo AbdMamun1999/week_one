@@ -10,11 +10,12 @@ int main()
     long long int x, y;
     cin >> x >> y;
 
-    int i = 0;
+    int i = 1;
     while (x <= y)
     {
-        x  *= 2;
+        x  *= i;
         i++;
+        // cout << x << " ";
     }
     cout << i << "\n";
 
